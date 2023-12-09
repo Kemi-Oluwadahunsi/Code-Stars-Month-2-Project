@@ -59,3 +59,50 @@ h3 {
   color: black;
   width: fit-content;
 }
+
+.side-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+/* .side-footer {
+  padding-left: 16px;
+} */
+
+ul {
+  display: flex;
+
+  gap: 7px;
+
+  list-style-type: none;
+}
+
+li {
+  font-size: 11px;
+}
+
+.btn3 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  margin-left: 16px;
+  border-radius: 16px;
+  color: black;
+  width: fit-content;
+}
+.footer-container p {
+  font-size: 11px;
+}
+
+.p-text {
+  font-size: 16px;
+}
