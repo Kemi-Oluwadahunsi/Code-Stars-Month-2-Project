@@ -1,0 +1,72 @@
+.Header{
+    display: flex; 
+    justify-content: space-between;
+    background-color:rgb(16,16,16);
+    padding: 14px 30px; /*top and bottom 14px, left and right 30px*/
+}
+.Header .prev-next-buttons button /* This selector targets the buttons inside the .prev-next-buttons element within the .Header conatainer.*/
+{
+color: rgb(122, 122, 122);
+cursor: not-allowed;
+width: 30px;
+height: 30px;
+border-radius: 100%;
+font-size:15px;
+border: 0px;
+background-color: rgb(9, 9, 9);
+margin-right:10px
+}
+
+.Header .navbar /*This selector targets the .navbar  element within the .Header container.*/
+{
+display: flex;
+align-items: center;
+}
+
+.Header .navbar ul{
+list-style: none;
+}
+.Header .navbar ul li /*This selector targets the unordered list element inside the .navbar element.*/
+{
+display: inline-block;
+margin: 0px 8px;
+width: 70px;
+}
+.Header .navbar ul li a{
+color:rgb(179, 179, 179);
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 14px;
+letter-spacing: 1px;
+}
+.Header .navbar ul li a:hover,
+.Header .navbar ul li a:active,
+.Header .navbar ul li a:focus {
+color: rgb(255, 255, 255);
+font-size: 1.1rem;
+transform: scale(1.2);
+transition: ease-in-out;
+}
+.Header .navbar ul li.divider {
+color: rgb(255, 255, 255);
+font-size: 26px;
+margin: 0px 20px;
+width: auto;
+}
+.Header .navbar button {
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);  
+font-size:16px;
+font-weight: bold;
+padding: 14px 30px;
+border: 0px;
+border-radius: 35px;
+cursor: pointer;
+margin-left: 20px;
+}
+.Header .navbar button:hover,
+.Header .navbar button:active,
+.Header .navbar button:focus {
+background-color:rgb(242, 242, 242);
+}
