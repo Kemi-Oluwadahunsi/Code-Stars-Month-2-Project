@@ -85,6 +85,10 @@ input::placeholder {
   width: auto;
 }
 
+.button-container input:hover {
+  border-color: #e2eee2;
+}
+
 .form {
   position: center;
   width: 60%;
@@ -153,7 +157,7 @@ input::placeholder {
  
 p {
   text-align: center;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
 }
  
