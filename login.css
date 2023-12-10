@@ -72,30 +72,8 @@ input::placeholder {
   width: 80%;
   margin-left: 10%;
 }
- 
-/* form-input-group i.e email and password style */
-
-.button-container.login {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
- 
-.button-container.login input[type="button"] {
-  width: 200px;
-  height: 50px;
-  margin: auto;
-  width: 320px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 10px; 
-}
- 
-.button-container input:hover {
-  border-color: rgba(255, 255, 255, 0.952);
-}
+  
+/* button-container styles  */
 .button-container {
   position: relative;
 }
@@ -106,22 +84,7 @@ input::placeholder {
   height: 60%;
   width: auto;
 }
- 
-.button-container input[type="button"] {
-  padding-left: 20px; 
-}
- 
-.button-container.login input {
-  background-color: #1ed760;
-  color: black;
-  padding: 10px 20px;
-  border: 1px solid;
-  border-radius: 40px;
-  cursor: pointer;
-  margin: 5px;
-  font-size: 16px;
-}
- 
+
 .form {
   position: center;
   width: 60%;
@@ -182,7 +145,6 @@ input::placeholder {
   border-color: #d8e7d8;
   font-weight: bold;
 }
- 
  
 .button-container.login {
   text-align: center;
@@ -250,15 +212,6 @@ input::after {
   width: 0.9rem;
   background-color: black;
   transition: left .3s;
-}
- 
-.visibility-icon {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  width: 20px;
 }
  
 .checkbox {
