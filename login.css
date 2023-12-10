@@ -149,7 +149,16 @@ input::placeholder {
   border-color: #d8e7d8;
   font-weight: bold;
 }
- 
+
+#togglePassword {
+  position: absolute;
+  top: 55%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
+
 .button-container.login {
   text-align: center;
   margin-top: 15px; 
@@ -190,7 +199,7 @@ p a:hover {
 .toggle {
   display: flex;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 14%;
   padding: 10px;
 }
  
@@ -232,6 +241,13 @@ input:checked {
  
 input:checked::after {
   left: 70%;
+}
+
+/* Media query for tablet view */
+@media screen and (max-width: 768px) {
+  .toggle {
+    margin-left: 2%;
+  }
 }
  
 /* signup-link style */
