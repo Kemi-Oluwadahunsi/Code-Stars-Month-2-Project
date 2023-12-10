@@ -1,9 +1,12 @@
 .Header{
     display: flex; 
     justify-content: space-between;
+    align-items: center;
     background-color:rgb(16,16,16);
-    padding: 14px 30px; /*top and bottom 14px, left and right 30px*/
+    padding: 7px 20px; 
 }
+
+
 .Header .prev-next-buttons button /* This selector targets the buttons inside the .prev-next-buttons element within the .Header conatainer.*/
 {
 color: rgb(122, 122, 122);
@@ -16,6 +19,7 @@ border: 0px;
 background-color: rgb(9, 9, 9);
 margin-right:10px
 }
+
 
 .Header .navbar /*This selector targets the .navbar  element within the .Header container.*/
 {

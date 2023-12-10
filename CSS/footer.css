@@ -1,0 +1,285 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #b3b3b3;
+  text-transform: none;
+  background-color: #121212;
+ --content-spacing: 16px;
+--content-max-width: 1955px;
+--content-spacing: clamp 16px,16px + (100vw - v0px) - 0px - 600px/424*8,24px;
+} */
+
+/* footer {
+  color: #fff;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(18, 18, 18);
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  margin-top: 2%;
+} */
+
+footer a {
+  color: rgb(179, 179, 179);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* hr {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  border: 0px;
+  border-block-start: 1px solid  #5b5959;
+  margin-block-end:24px;
+  margin-block-start: 24px;
+
+} */
+
+/* Style for the copyright section */
+/* .copyright {
+  text-align: center;
+  padding: 0px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-flow: row;
+  -webkit-box-align: end;
+  align-items: end;
+  color: #6a6a6a;
+  padding-right: 16px;
+
+} */
+
+.now-playing-bar {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-width: 620px;
+  user-select: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+.now-playing-bar a {
+  text-decoration: none;
+}
+
+#signup-bar {
+  padding: 11px 24px 7px 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+  align-items: center;
+  background-image: linear-gradient(90deg, #af2896, #509bf5);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+#signup-bar .Preview {
+  margin: 0 0 4px;
+  color: #fff;
+  display: block;
+}
+
+#signup-bar .section {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin-block: 0px;
+  font-size: 0.625rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: var(
+    --font-family,
+    CircularSp,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Grek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+  color: inherit;
+}
+
+#signup-bar .unlimited {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin-block: 0px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(
+    --font-family,
+    CircularSp,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Grek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+  color: inherit;
+}
+
+#signup-bar .buttonPrimary {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(
+    --font-family,
+    CircularSp,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Grek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+  background-color: transparent;
+  border: 0px;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  transition-property: background-color, border-color, color, box-shadow, filter,
+    transform;
+  user-select: none;
+  vertical-align: middle;
+  transform: translate3d(0px, 0px, 0px);
+  padding: 0px;
+  min-inline-size: 0px;
+  align-self: center;
+}
+
+#signup-bar .ButtonInner {
+  overflow-wrap: anywhere;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  background-color: var(--background-base, #ffffff);
+  color: var(--text-base, #000000);
+  display: flex;
+  border-radius: 9999px;
+  font-size: inherit;
+  min-block-size: var(--encore-control-size-base, 48px);
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-block-start: var(--encore-spacing-tighter-2, 8px);
+  padding-block-end: var(--encore-spacing-tighter-2, 8px);
+  padding-inline-start: var(--encore-spacing-looser-2, 32px);
+  padding-inline-end: var(--encore-spacing-looser-2, 32px);
+  -webkit-box-flex: 1;
+  white-space: nowrap;
+}
+
+/* .FooterTopSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5%;
+  visibility: visible;
+  -webkit-box-direction: normal;
+  vertical-align: baseline;
+
+} */
+
+.Footer__StyledTopLinks {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* .TopLinksGroup
+{
+margin-bottom: 32px;
+} */
+.TopLinksGroup a {
+  display: flex;
+  flex-flow: column wrap;
+  /* padding: 3%; */
+}
+
+.TopLinksGroup p {
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin-block: 0px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(
+    --font-family,
+    CircularSp,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Grek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+}
+.SocialLinks {
+  margin-bottom: 40px;
+  display: inline;
+  padding-right: 16px;
+  margin-right: 5%;
+}
+.SocialLinksicon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(41, 41, 41);
+}
+.SocialLinks span {
+  visibility: hidden;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  color: var(--text-base, #000000);
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: xx-small;
+  transition-property: visibility;
+  transition-delay: 0.5s;
+}
+
+.SocialLinks :hover {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  cursor: inherit;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #6a6a6a;
+  position: relative;
+}
+.SocialLinks :hover span {
+  visibility: visible;
+}
