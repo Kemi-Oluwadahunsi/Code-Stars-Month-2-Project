@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up- Spotify</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Images/favicon.ico?v2"
+    />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  </head>
+  <body>
+    <!-- Divide my screen into three sections-->
+
+    <div class="flex-container">
+      <!-- First section for logo -->
+      <div class="container">
+        <img src="../Images/images1.jpg" alt="Spotify Logo" />
+      </div>
+
+      <!-- Second section for form -->
+      <div class="container">
+        <h1 class="sign_up_form">Sign up to start<br />listening</h1>
+        <form action="">
+          <label for="email">Email Address:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="name@domain.com"
+            required
+          /><br />
+          <a href="/HTML/signup_page2.html">Use phone number instead.</a><br />
+          <button class="btn" type="submit">Next</button>
+          
+          <div class="horizontal-container">
+          <div>
+          <hr class="horizontal1" />
+          </div>
+          <div>
+          <p class="horizontal">or</p>
+          </div>
+          <div>
+          <hr class="horizontal2"/>
+          </div>
+        </div>
+          <button class="btn1" type="submit"> <img class="signupimage" src="../Images/google1.png" alt="Spotify Logo" /></i>Sign up with Google</button>
+          <button class="btn2" type="submit"> <img class="signupimage" src="../Images/facebook1.png" alt="Spotify Logo" />Sign up with Facebook</button>
+          <!-- <hr class="horizontal3"/> -->
+          <div class="account-container">
+          <p class="alternative">Already have an account?</p>
+          <p class="alternative2">Login here.</p>
+        </div>
+          <p class="recaptcha">
+            This site is protected by reCAPTCHA and the Google <br />
+           <a href="https://policies.google.com/privacy" class="policy">Privacy Policy </a> and <a href="https://policies.google.com/terms" class="policy">Terms of Service</a> apply.
+          </p>
+        </form>
+      </div>
+      <!-- Third blank section -->
+      <div class="container">
+      </div>
+    </div>
+  </body>
+</html>

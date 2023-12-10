@@ -1,0 +1,285 @@
+body{
+
+    background-color: #121212;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+/* margin: 15px auto auto 20px; */
+width: 9vw;
+}
+
+.flex-container{
+display: flex;
+height: 100vh;
+justify-content: center;
+
+}
+
+.container{
+    flex: 1; /* Each section takes an equal part of the container */
+    justify-content: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+.sign_up_form{
+/* display: block; */
+color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 3rem;
+font-weight: 700;
+letter-spacing: -3px;
+padding-bottom: ;
+}
+
+h1{
+margin: 70px auto auto auto;
+padding-bottom: 50px;
+letter-spacing: -50px;
+}
+
+label{
+color: white;
+font-size: smaller;
+font-weight: bold;
+}
+
+input{
+margin-top: 10px;
+background-color: #121212;
+padding: 15px 100px 15px 15px;
+box-sizing: border-box;
+border: 1px solid gray;
+border-radius: 4px;
+margin-bottom: 20px;
+font-size: 15px;
+font-weight: bold;
+color: #a7a7a7;
+}
+
+input:hover{
+border-color: #fff;
+}
+
+a {
+    color: #1ed760;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+/* input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+} */
+
+.btn{
+padding:  15px 142px;
+border-style: none;
+text-align: center;
+cursor: pointer;
+border-radius: 30px;
+margin: 20px auto;
+background-color: #1ed760;
+font-weight: bold;
+font-size: 15px;
+}
+
+/* .first_line{
+width: 50px;
+float: left;
+} */
+
+.horizontal-container{
+display: flex;
+
+}
+
+.horizontal1{
+width: 135px;
+border: 0.1px solid gray;
+border-top: #121212;
+}
+
+.horizontal-container p{
+margin: -1px 15px;
+color: white;
+}
+
+.horizontal2{
+    width: 130px;
+    border: 0.1px solid gray;
+    border-top: #121212;
+
+}
+
+.btn1{
+padding:  12px 50px;
+/* padding-right: 50px; */
+text-align: center;
+cursor: pointer;
+border-radius: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 1rem;
+background-color: transparent;
+color: #fff;
+border: 1px solid gray;
+}
+
+.btn:hover{
+    border-color: #fff;
+}
+
+.btn2:hover{
+    border-color: #fff;
+}
+
+.btn1:hover{
+    border-color: #fff;
+}
+
+
+.btn2{
+    padding:  12px 38px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid gray;
+    }
+    
+    .horizontal3{
+    border: 1px solid gray;
+    width: 86%;
+    margin-left: -4px;
+    }
+    
+    .alternative{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    }
+    
+    
+    .alternative2{
+        color: white;
+        font-weight: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        font-size: 0.9rem;
+        cursor: pointer;
+        }
+    .account-container{
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    /* margin:  50px 50px auto 50px; */
+    font-weight: 300px;
+    }
+    
+    .recaptcha{
+    color: gray;
+    text-align: center;
+    font-size: 0.7rem;
+   padding: 20px;
+    text-align: center;
+    }
+    
+    .policy{ 
+    text-decoration: underline;
+    cursor: pointer;
+    color: #a7a7a7;
+    }
+    
+    #countryCode{
+        background-color: #121212;
+        padding: 15px 0.5px 10px 15px;
+        box-sizing: border-box;
+        border: 1px solid gray;
+        border-radius: 4px;
+        margin-left: 250px;
+        font-size: 15px;
+        color: #fff;
+        font-size: larger;
+        font-family: 'Merriweather', serif;
+        font-family: 'Merriweather Sans', sans-serif
+        font-family: 'Sacramento', cursive;
+        
+    }
+    
+    #countryCode:hover{
+        border-color: #fff;
+    }
+    
+    .contactpage{
+    display: flex;
+    }
+    
+    .phonenumber{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .phoneinput{
+    flex: 1;
+    margin-left: 160px;
+    margin-top: 70px;
+    color: white;
+    }
+    
+    .phoneinput p{
+    font-weight: bold;
+    }
+    
+    #contactmail{
+    position: absolute;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 250px;
+    margin-left: 40px;
+    margin-top: -1px;
+ }
+    
+    .contactmail:hover{
+    border-color: #fff;
+    }
+    
+    .image2{
+    margin:20px 50px;
+    }
+    .lastbutton{
+    margin-left: 250px;
+    margin-top: 70px;
+    padding: 1.1em 2.5em;
+    border-radius: 500px;
+    border: none;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border: 0;
+    border-radius: 30px;
+    background-color: #3b8a59;
+    font-weight: bolder;
+    cursor: not-allowed;
+    }
+  
+  .signupimage{
+  width: 20px;
+  padding-right: 40px;
+  margin-top: 2px;
+  }

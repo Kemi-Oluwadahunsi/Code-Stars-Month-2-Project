@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+    <link rel="icon" type="image/x-icon" href="/images/spotify.png">
+    <link rel="stylesheet" href="login.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <img src="Images/images.jpg" alt="Spotify Logo">
+    </header>
+
+    <div class="wrapper">
+        <div class="login-wrapper">
+            <form action="" class="form">
+                <h1>Login spotify</h1>
+
+                <div class="button-container Google">
+                    <input type="button" value="Continue with Google">
+                    <img src="./images/google.png" alt="Google Icon" class="google-icon">
+                </div>
+
+                <div class="button-container Facebook">
+                    <input type="button" value="Continue with Facebook">
+                    <img src="./images/facebook.png" alt="Facebook Icon" class="facebook-icon">
+                </div>
+
+                <div class="button-container Apple">
+                    <input type="button" value="Continue with Apple">
+                    <img src="./images/apple.png" alt="Apple Icon" class="apple-icon">
+                </div>
+
+                <div class="button-container phoneNumber">
+                    <input type="button" value="Continue with phone number">
+                </div>
+
+                <hr class="custom-hr">
+
+                <div class="form-input-group">
+                    <label for="uname"><b>Email or username </b></label>
+                    <input type="text" placeholder="Enter Email or Username" name="uname" 
+                     title="please enter your spotify username or email address." required>
+                </div>
+
+                <div class="form-input-group">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <img src="./images/low-vision.png" alt="low-vision" class="visibility-icon">
+                </div>
+
+                <div class="toggle">
+                    <label for="switch" class="toggle">
+                        <input type="checkbox" id="switch" class="checkbox"> 
+                        <span class="remember-text">Remember me</span>
+                    </label>
+                </div>
+
+                <div class="button-container login">
+                    <input type="button" value="Log in">
+                </div>
+                <p><a href="#">Forgot your password?</a></p>
+
+                <hr class="custom-hr">
+
+                <div class="signup-link">
+                    Don't have an account? <a href="signup.html" class="signup-link"> Sign up for Spotify.</a>
+                </div>
+
+                <footer>
+                    <div class="footer-message">
+                        <p>
+                            This site is protected by reCAPTCHA and the Google
+                            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy
+                                Policy</a>
+                            and
+                            <a href="https://policies.google.com/terms" target="_blank"
+                                rel="noopener noreferrer">Terms of Service</a>
+                            apply.
+                        </p>
+                    </div>
+                </footer>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
