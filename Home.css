@@ -30,7 +30,7 @@ body {
   height: 91%;
   border-radius: 10px;
   margin-left: 10px;
-  background-color: white;
+  background-color: rgb(39, 39, 39);
   margin-top: 8px;
 }
 
@@ -67,6 +67,7 @@ nav {
 
 .song-cards {
   height: 50%;
+  margin-top: .5rem;
 }
 
 footer {
