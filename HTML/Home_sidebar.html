@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Sidebar</title>
-    <link rel="stylesheet" href="../CSS/home_sidebar.css">
+    <title>Document</title>
 <style> 
     body {
         margin: 0;
@@ -14,31 +13,42 @@
     .container {
         display: flex;
         flex-wrap: wrap;
-        border-radius: 20px;
+        border-radius: 0.9rem;
         width: 20%;
+        height: 10.5rem;
         flex-direction: column;
-        margin-top: 5px;
+        margin-top: 1rem;
         background-color: rgb(27, 25, 25);
-        vertical-align: top;
+       vertical-align: top;
         color: white;
+        /* padding-left:1rem; */
+        padding-bottom: 0.5rem;
     }
-
+li{
+  list-style-type: none;
+}
+li p{
+  margin: 0;
+}
+li img {
+  margin: 0;
+}
     .spotify {
         display: flex;
         cursor: pointer;
-        margin: 0;
     }
 
     .img1 {
         display: flex;
-        width: 40px;
-        padding-left: 10px;
-        padding-top: 15px;
-    }
+        width: 2.2rem;
+        padding-top: 1rem;
+        padding-left: 1.6rem; 
+      }
     .Text1 {
         display: flex;
         margin: 0;
-        padding-top: 20px; 
+        padding-top: 1.4rem; 
+       padding-left: 0rem;
     }
     
     .spotify:hover {
@@ -51,10 +61,11 @@
     }
     
     .img2 {
-        display: flex;
-        width: 59px;
-        height: 74px;
-        
+        display: inline;
+        width: 3.8rem;
+        height: 4rem;
+        padding-left: 0.8rem ;
+
     }
     
     .home:hover {
@@ -63,7 +74,9 @@
     
     .Text2 {
         display: flex;
-       padding-top: 14px;
+       padding-top: 1.4rem;
+       padding-left: 0rem;
+       
        
     }
     
@@ -80,17 +93,17 @@
     
     .img3 {
         display: flex;
-        width: 25px;
-        margin-left: 15px;
-        padding-right: 5px;
+        width: 1.5rem;
+         margin-left: 0.5rem;
+       padding-left: 1.5rem;
     }
     
     .Text3 {
         display: flex;
         color: white;
         text-decoration: underline rgb(27, 25, 25);
+        padding-left: 1.3rem;
     }
-    
     .Searchtext:hover {
         text-decoration: underline;
         text-decoration-color: white;
@@ -99,19 +112,19 @@
 </head>
 <body>
     <div class="container">
-        <div class="spotify">
-            <img src="../Images/icon2-removebg-preview.png" class="img1"> 
-            <p class="Text1">Spotify</p>
-        </div>
-        <div class="home">
-            <img src="../Images/Untitled_design__3_-removebg-preview.png" alt="home icon" class="img2">
-            <p class="Text2">Home</p>
-        </div>
-        <div class="search">
-            <img src="../Images/search_icon2-removebg-preview (1).png" alt="The search icon" class="img3">
-            <a href="https://open.spotify.com/search"><p class="Text3"> Search </p></a>
-        </div>
+    <li class="spotify">
+      <img src="../IMAGES/icon2-removebg-preview.png" class="img1"> 
+      <p class="Text1">Spotify</p>
+    </li>
+    <li class="home">
+      <img src="../IMAGES/Untitled_design__3_-removebg-preview.png" alt="home icon" class="img2">
+      <p class="Text2">Home</p>
+    </li>
+    <li class="search">
+      <img src="../IMAGES/search_icon2-removebg-preview (1).png" alt="The search icon" class="img3">
+      <a href="https://open.spotify.com/search"><p class="Text3"> Search </p></a>
+    </li>
     </div>
 </body>
 </html>
- 
+
