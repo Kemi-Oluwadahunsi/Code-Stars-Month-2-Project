@@ -1,7 +1,7 @@
 /* body style */
 body {
   margin: 0 auto;
-  background-color: rgb(21, 21, 21);
+  background-image:linear-gradient(rgb(29, 29, 29), rgb(0, 0, 0) ) 
 }
  
 /* header style */

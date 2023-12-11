@@ -17,16 +17,19 @@
   overflow: auto;
 } */
 
-.library-top {
+/* .library-top {
+  
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   gap: 16px;
   overflow: auto;
   padding-block: 10px;
   background-color: #121212;
-}
+  
+} */
 
 .header1 {
   padding: 3px;
@@ -61,17 +64,17 @@
 
 .create-section {
   overflow: auto;
-  padding: 16px;
+  padding: 8px;
   flex-direction: column;
   display: flex;
-  gap: 19px;
+  /* gap: 19px; */
   background-color: #242424;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .create-text {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  /* gap: 4px; */
 }
 
 .btn {

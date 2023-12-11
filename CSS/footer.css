@@ -259,7 +259,7 @@ margin-bottom: 32px;
 .SocialLinks span {
   visibility: hidden;
   position: absolute;
-  bottom: -20px;
+  /* bottom: -20px; */
   left: 50%;
   color: var(--text-base, #000000);
   background-color: #fff;
@@ -273,12 +273,13 @@ margin-bottom: 32px;
 .SocialLinks :hover {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  cursor: inherit;
+  /* cursor: inherit; */
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
   background-color: #6a6a6a;
   position: relative;
+  visibility: visible;
 }
 .SocialLinks :hover span {
   visibility: visible;

@@ -61,7 +61,7 @@
     background: rgb(24, 22, 22);
     height: 15rem;
     width: 15%;
-    padding:  1rem;
+    padding:  .5rem;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
