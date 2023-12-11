@@ -140,16 +140,10 @@ input::placeholder {
   font-size: 0.7rem;
 }
 
-.form-input-group input:hover {
-  border-color: #ffffff; 
+.form-input-group input:hover,
+.form-input-group input:focus {
+    border-color: #ffffff;
 }
-
-.form-input-group input:focus,
-.form-input-group input:valid {
-  border-color: gray;
-  font-weight: bold;
-}
-
 
 #togglePassword {
   position: absolute;
