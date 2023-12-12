@@ -17,7 +17,7 @@
   overflow: auto;
 } */
 
-/* .library-top {
+.library-top {
   
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -29,7 +29,7 @@
   padding-block: 10px;
   background-color: #121212;
   
-} */
+}
 
 .header1 {
   padding: 3px;
@@ -49,6 +49,7 @@
 .h3-text {
   font-size: 16px;
   color: #a7a7a7;
+  cursor: pointer;
 }
 
 .h3-text:hover {
@@ -64,27 +65,34 @@
 
 .create-section {
   overflow: auto;
-  padding: 8px;
+  padding: 10px;
   flex-direction: column;
   display: flex;
-  /* gap: 19px; */
+  gap: 19px;
   background-color: #242424;
   border-radius: 10px;
+  /* font-weight: bold;
+  font-size: medium; */
 }
 .create-text {
   display: flex;
   flex-direction: column;
-  /* gap: 4px; */
+  gap: 4px;
+
+}
+#create-text1{
+  font-size: 14px;
 }
 
 .btn {
   background-color: white;
-  padding: 8px;
+  padding: 6px;
   border-radius: 16px;
   color: black;
   width: fit-content;
   border: none;
-  font-weight: 500;
+  font-weight: 700;
+  
 }
 
 .side-footer {
