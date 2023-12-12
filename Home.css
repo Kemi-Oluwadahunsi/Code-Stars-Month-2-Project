@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -10,7 +11,7 @@ body {
   flex-direction: row;
   /* justify-content: space-between; */
   padding: 0px 10px 0 10px;
-  background-color: white;
+  background-color: black;
   height: 100vh;
   width: 100vw;
   /* overflow-x: hidden; */
@@ -76,18 +77,21 @@ nav {
 .song-cards {
   height: 50%;
   margin-top: .5rem;
+  background-image:linear-gradient(rgb(29, 29, 29),  rgb(18, 18, 18) )
 }
 
 footer {
   height: 40%;
   color: #fff;
-  padding: 0px 20px 0px 20px;
+  padding: 8px 16px 40px;
   background-color: rgb(18, 18, 18);
   width: 100%;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 1%;
+  
+  
 }
 .library-top {
   height:100%;
@@ -97,3 +101,6 @@ footer {
   /* background-color: #121212; */
   
 }
+
+
+

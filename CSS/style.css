@@ -32,7 +32,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 3rem;
 font-weight: 700;
 letter-spacing: -3px;
-padding-bottom: ;
+
 }
 
 h1{
@@ -195,8 +195,8 @@ border: 1px solid gray;
     color: gray;
     text-align: center;
     font-size: 0.7rem;
-   padding: 20px;
-    text-align: center;
+    padding: 20px; 
+    
     }
     
     .policy{ 
@@ -216,7 +216,7 @@ border: 1px solid gray;
         color: #fff;
         font-size: larger;
         font-family: 'Merriweather', serif;
-        font-family: 'Merriweather Sans', sans-serif
+        font-family: 'Merriweather Sans', sans-serif;
         font-family: 'Sacramento', cursive;
         
     }
