@@ -10,13 +10,23 @@
   --content-spacing: 16px;
 } */
 
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 33rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 #footer {
   color: #fff;
   padding: 8px 16px 40px;
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: first baseline;
+  /* border: 2px solid red; */
+  padding-top: 4rem;
 }
 
 #footer a {
@@ -31,14 +41,14 @@
   color: #fff;
 }
 
-hr {
+/* hr {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
   border: 0px;
   border-block-start: 1px solid #5b5959;
   margin-block-end: 24px;
   margin-block-start: 24px;
-}
+} */
 
 /* Style for the copyright section */
 .copyright {
@@ -48,9 +58,15 @@ hr {
   display: flex;
   flex-flow: row;
   -webkit-box-align: end;
-  align-items: end;
-  color: #6a6a6a;
-  padding-right: 16px;
+  align-items: center;
+  padding: 0 1rem;
+  height: 7rem;
+  border-top: 1px solid rgba(114, 113, 113, 0.5);
+}
+
+.copyright p{
+  color: rgb(179, 179, 179);
+  font-size: .8rem;
 }
 
 .now-playing-bar {
@@ -66,6 +82,11 @@ hr {
 }
 .now-playing-bar a {
   text-decoration: none;
+}
+
+.signup{
+  width: screen;
+  box-sizing: border-box;
 }
 
 #signup-bar {
@@ -96,7 +117,7 @@ hr {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
   margin-block: 0px;
-  font-size: 0.625rem;
+  font-size: .7rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -193,9 +214,8 @@ hr {
 }
 
 .FooterTopSection {
-  
   background-color: rgb(18, 18, 18);
-  
+  height: 17rem; 
 }
 
 @media (min-width: 992px) {
@@ -223,7 +243,7 @@ hr {
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
-  max-width: 75%;
+  max-width: 60%;
 }
 
 .TopLinksGroup {
@@ -254,14 +274,13 @@ hr {
 }
 
 #footer .social-icons {
+  width: 20%;
   display: flex;
-  align-items: center;
-  margin-bottom: 40px;
+  gap: 10px;
 }
 
 #footer .social-icon {
   position: relative;
-  margin-left: 16px;
   cursor: pointer;
   align-items: center;
 }
@@ -291,7 +310,7 @@ hr {
 }
 
 #footer .social-icon:hover i {
-  background-color: #6a6a6a; /* Change color on hover */
+  background-color: #6a6a6a; 
 }
 
 #footer .social-icon:hover span {
